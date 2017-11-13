@@ -1,0 +1,382 @@
+/*
+ * Globals
+ */
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+
+@font-face {
+    font-family: 'BentonSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BentonSans-Regular'), url('BentonSans-Regular.woff') format('woff');
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+    color: #fff;
+}
+.blog-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog-title {
+    font-family: BentonSans;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 0px;
+}
+
+
+/*.blog-title{*/
+/**/
+/*Color: black;*/
+/*font-size:60px;*/
+/*margin-left: 0px;*/
+/*font-weight: 600;*/
+/*position: relative;*/
+/*}*/
+.blog-description {
+    font-family: "Sentinel Medium";
+    font-weight: 300;
+    font-size:20pt;
+    color:dimgrey;
+}
+
+/*.blog-description{*/
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    /*font-weight: 300;*/
+    /*font-size:20pt;*/
+    /*color:dimgrey;*/
+/*}*/
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+    font-family: Georgia;
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+.blog-post-meta{
+    font-family: BentonSans;
+
+}
+.byline{
+    font-family: BentonSans;
+
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+    margin-bottom: 60px;
+    text-align: left;
+}
+.pager > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+/*.blog-title{*/
+   /**/
+    /*Color: black;*/
+    /*font-size:60px;*/
+    /*margin-left: 0px;*/
+    /*font-weight: 600;*/
+    /*position: relative;*/
+/*}*/
+
+.credit{
+    font-family: "Helvetica Neue Light";
+    Color: dimgrey;
+    font-size:8pt;
+    font-style: oblique;
+    position:absolute;
+     right:10px;
+    width:300px;
+}
+.brand{
+    font-family:"Times New Roman";
+    font-size: 30pt;
+    font-weight: 400;
+    position: relative;
+    color: black;
+}
+.navbar-header{
+    background-color: #cdddeb;
+}
+.container-fluid{
+    background-color: #cdddeb;
+
+}
+.nav{
+    background-color: #cdddeb;
+
+}
+.blockquote-reverse{
+    font-family:BentonSans;
+    color:rebeccapurple;
+    font-style:oblique;
+    font-weight:500;
+}
+.glyphicon glyphicon-heart{
+
+    color:red;
+}
+
+.mynav{
+    color: #337ab7;
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.margins{
+    font-family:'BentonSans-Regular';
+    font-weight: 400;
+
+    padding-left: 100px;
+}
+.blog-nav{
+    color: orange;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+    #sidebar-wrapper {
+        width: 0;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
