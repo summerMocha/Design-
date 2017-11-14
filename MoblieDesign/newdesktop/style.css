@@ -1,0 +1,228 @@
+*{
+    margin:0;
+}
+html,body{
+    height:100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 20px;
+}
+nav{
+    position: relative;
+    width:100%;
+    height:50px;
+    background-color: rgba(0,0,0,.5);
+    z-index:99;
+
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-left:30px;
+    line-height: 50px;
+    text-align:center;
+
+}
+
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.subSection{
+    height: 65%;
+    background-color: rgba(0,0,0,.09);
+
+
+}
+.subSectionLarge{
+    height: 180%;
+    background-color: rgba(0,0,0,.09);
+}
+subSectionExtra{
+    height: 380%;
+    background-color: rgba(0,0,0,.09);
+
+}
+
+.sectOne{
+    background-image:url("../photo/Rat Opening photo.png") ;
+}
+
+.sectTwo{
+    background-image:url("photo/Caitlyn Jenner.jpg");
+
+}
+.margins{
+    position: relative;
+    font-family:'BentonSans-Regular';
+    font-weight: 400;
+    text-align:center;
+
+}
+.sectThree{
+    background-image:url("photo/jaime_army_vs_now.png");
+
+}
+
+.sectFour{
+    background-image:url("photo/Rat_vs_Nezi.png");
+
+}
+.sectFive{
+    background-image:url("photo/jamie and wife.jpg");
+
+
+}
+
+.sectTen{
+    background-image:url("photo/rat_photo3.png");
+
+
+}
+.sectEight{
+    background-image:url("photo/jamie.shupe_.trans_.flag_.1 2.jpg");
+
+
+}
+
+.sectNight{
+    background-image:url("photo/JAMIEid.png");
+
+
+}
+
+.sectSix{
+    background-image:url("photo/WIG.png");
+
+
+}
+.video{
+    position: relative;
+    margin-left: 350px;
+    background-color: #333333;
+}
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog-title {
+    font-family: BentonSans;
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+/*.blog-title{*/
+/**/
+/*Color: black;*/
+/*font-size:60px;*/
+/*margin-left: 0px;*/
+/*font-weight: 600;*/
+/*position: relative;*/
+/*}*/
+.blog-description {
+    font-family: "Sentinel Medium";
+    font-weight: 300;
+    font-size:20pt;
+    color:dimgrey;
+    text-align: center;
+    text-decoration:none;
+}
+
+/*.blog-description{*/
+/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+/*font-weight: 300;*/
+/*font-size:20pt;*/
+/*color:dimgrey;*/
+/*}*/
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+    font-family: Georgia;
+    padding-left: 50px;
+    padding-top: 20px;
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+.blog-post-meta{
+    font-family: BentonSans;
+    padding-left: 50px;
+
+}
+.byline{
+    font-family: BentonSans;
+    padding-left: 50px;
+
+}
+
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+.blockquote-reverse{
+    font-family:BentonSans;
+    color:rebeccapurple;
+    font-style:oblique;
+    font-weight:500;
+}
+
+.they{
+    border: none;
+
+}
+.thumbnail{
+    border: none;
+}
