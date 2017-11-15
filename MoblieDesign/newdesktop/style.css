@@ -64,11 +64,26 @@ nav a{
 
 }
 
-.subSection{
+.subSectionExtraSmall {
+    height: 45%;
+    background-color: rgba(0, 0, 0, .09);
+}
+
+
+.subSection {
     height: 65%;
+    background-color: rgba(0, 0, 0, .09);
+}
+
+.subSectionSmall{
+    height: 80%;
     background-color: rgba(0,0,0,.09);
 
 
+}
+.subSectionMiddle{
+    height: 100%;
+    background-color: rgba(0,0,0,.09);
 
 }
 .subSectionLarge{
@@ -77,6 +92,14 @@ nav a{
 
 
 }
+
+.subSectionMiddlePlus{
+    height: 130%;
+    background-color: rgba(0,0,0,.09);
+
+
+}
+
 subSectionExtra{
     height: 380%;
     background-color: rgba(0,0,0,.09);
@@ -136,7 +159,16 @@ subSectionExtra{
     background-image:url("photo/WIG.png");
 
 
+
 }
+
+.chart{
+   align-items: center;
+    padding-left: 200px;
+}
+
+
+
 .video{
     position: relative;
     margin-left: 350px;
@@ -214,6 +246,7 @@ subSectionExtra{
  */
 
 .blog-post {
+    padding-left: 20px;
     margin-bottom: 60px;
 }
 .blog-post-title {
